@@ -68,11 +68,17 @@ public class MainActivity extends AppCompatActivity implements RtmpHandler.RtmpL
 //        mPublisher.setPreviewResolution(640, 360);
 //        mPublisher.setOutputResolution(360, 640);
 
-        mPublisher.setPreviewResolution(960, 540);
-        mPublisher.setOutputResolution(540, 960);
+//        mPublisher.setPreviewResolution(960, 540);
+//        mPublisher.setOutputResolution(540, 960);
 
 //        mPublisher.setPreviewResolution(320, 180);
 //        mPublisher.setOutputResolution(180, 320);
+
+        //预览分辨率
+        mPublisher.setPreviewResolution(1280, 720);
+        //推流分辨率
+        mPublisher.setOutputResolution(720, 1280);
+
 
         mPublisher.setVideoHDMode();
         mPublisher.startCamera();
