@@ -1,4 +1,4 @@
-Executable : D:\android_studio\android_sdk\ndk-bundle\ndk-build.cmd
+Executable : D:\WORK\android_studio\android_sdk\ndk-bundle\ndk-build.cmd
 arguments : 
 NDK_PROJECT_PATH=null
 APP_BUILD_SCRIPT=D:\AS_DEMO\yasea\library\src\main\cpp\Android.mk
